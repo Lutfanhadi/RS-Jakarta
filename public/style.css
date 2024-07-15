@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 50px;
+    border-bottom: 2px solid black;
+    background-color: rgb(221, 210, 195);
+    position: fixed;
+    
+}
+
+.logo-img{
+    height: 6rem;
+}
+.navbar-menu{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+.navbar-menu .item-menu .menu:hover{
+    border-bottom: 2px solid blue;
+    color: blue;
+    padding: 8px 0;
+    transition: 0.2s ease-in-out;
+    transition: 0.2s;
+}
+
+.navbar-menu .item-menu .menu{
+    text-decoration: none;
+    color: black;
+}
+
+/* profil */
+.Profil-img{
+    padding-top: 135px;
+    width: 100%;
+    height: 60rem;
+}
